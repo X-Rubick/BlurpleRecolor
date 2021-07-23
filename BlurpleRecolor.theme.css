@@ -1,0 +1,37 @@
+/**
+ * @name BlurpleRecolor
+ * @description BlurpleRecolor
+ * @author Shay
+ * @version 1.0.0
+ * @authorId 398190618553352203
+ * @donate
+ * @patreon
+ * @website
+ * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BlurpleRecolor/
+ * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.theme.css
+ */
+
+/* To change stuff like the colors, transparency and background image, change the variables inside the root {}, do NOT change the @import url(/web/20210415223629cs_/https://betterdiscord.net/ghdl/?id=2751) */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+
+/* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker	*/
+
+:root {
+	--accentcolor:			163,47,194;		/*	blurple		-	default:	114,137,218		*/
+	--accentcolor2:			225,115,180;	/*	boostpink	-	default:	255,115,250		*/
+	--linkcolor:			190,60,220;		/*	link		-	default:	0,176,244		*/
+}
+/*
+playback timings (ms):
+  esindex: 0.013
+  CDXLines.iter: 24.709 (3)
+  exclusion.robots: 0.387
+  LoadShardBlock: 91.307 (3)
+  PetaboxLoader3.datanode: 170.239 (4)
+  PetaboxLoader3.resolve: 71.208
+  load_resource: 155.363
+  captures_list: 128.721
+  RedisCDXSource: 6.204
+  exclusion.robots.policy: 0.358
+*/
